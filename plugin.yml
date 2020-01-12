@@ -1,0 +1,64 @@
+name: CoreMenu
+author: Aleondev
+api: [3.0.0, 4.0.0]
+version: 1.0.1
+description: Command
+main: Aleondev\Main
+commands:
+ core:
+  permission: booster.command
+  description: "§eCore§4Menu"
+permissions:
+ booster:
+  description: Erlaube die Verwendung aller Booster-Befehle
+  default: op
+  children:
+      booster.command:
+        description: Erlaube die Verwendung von /booster
+        default: op
+      booster.version:
+        description: Erlaube die Verwendung der Command /Booster-Version
+        default: op
+      booster.feed:
+        description: Erlaube die Verwendung der Command /Booster-Feed
+        default: op
+      booster.heal:
+        description: Erlaube die Verwendung der Command /Booster-Heal
+        default: op
+      booster.fly:
+        description: Erlaube die Verwendung der Command /Booster-Fly
+        default: op
+      booster.break:
+        description: Erlaube die Verwendung der Command /Booster-Break
+        default: op
+      perks.break:
+        description: Erlaube die Verwendung der Command /Booster-Feed
+        default: op
+      perks.jump:
+        description: Erlaube die Verwendung der Command /Booster-Heal
+        default: op
+      perks.speed:
+        description: Erlaube die Verwendung der Command /Booster-Fly
+        default: op
+      perks.fire:
+        description: Erlaube die Verwendung der Command /Booster-Break
+        default: op
+      perks.damage:
+        description: Erlaube die Verwendung der Command /Booster-Heal
+        default: op
+      perks.night:
+        description: Erlaube die Verwendung der Command /Booster-Fly
+        default: op
+      fly.core:
+        description: Erlaube die Verwendung der Command /Booster-Break
+        default: op
+      tag.core:
+        description: Erlaube die Verwendung der Command /Booster-Heal
+        default: op
+      nacht.core:
+        description: Erlaube die Verwendung der Command /Booster-Fly
+        default: op
+      booster.check:
+        description: Erlaube die Verwendung der Command /Booster-Fly
+        default: op
+        
